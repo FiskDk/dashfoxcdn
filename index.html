@@ -366,9 +366,10 @@
 if (location.href.includes("?file=")) {
 location.href= "https://cdn.dashfox.shop/files/15b068632dcaff150f26d23d56b73f734f8be4fa.mp4"
 }
+
+// Simple YouTube redirecter
 if (location.href.includes("?yt=")) {
   let id = location.href.split("?yt=")[1]
-  console.log(id)
   let redirect = "https://www.youtube.com/watch?v=" + id
 location.href= redirect
 }
