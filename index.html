@@ -368,7 +368,8 @@ location.href= "https://cdn.dashfox.shop/files/15b068632dcaff150f26d23d56b73f734
 }
 if (location.href.includes("?yt=")) {
   let id = location.href.split("?yt=")[1]
-  let redirect = "https://www.youtube.com/watch?v=" + id
+  console.log(id)
+  // let redirect = "https://www.youtube.com/watch?v=" + id
 location.href= redirect
 }
 </script>
